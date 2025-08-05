@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+header .logo{
+    display: flex;
+    margin-bottom: 15px;
+    height: 200px;
+    border: 2px solid black;
+}
+header .logo > img{
+    width: 200px;
+}
+.logo > h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    font-size: 50pt;
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+.navegacao{
+    text-align: center;
+    margin-right: 15px;
+    border: 2px solid black;
+    width: 25%;
+
+}
+
+.tema{
+    
+    flex-grow: 1;
+    border: 2px solid black;
+    
+}
+.tema > h1{
+    text-align: center;
+}
+.tema > p{
+    text-indent: 30px;
+    text-align: justify ;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.tema > table{
+    margin: auto;
+}
+.tema table th{
+    
+}
+.tema table td{
+    text-align: center;
+}
+#celula1{
+    text-align: justify;
+}
+
+.ladodir{
+    margin-left: 15px;
+    width: 25%;
+    border: 2px solid black;
+    
+}
+.ladodir > h1{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ladodir img{
+    margin-left: 35px;
+    margin-right: 15px;
+    width: 200px;
+    height: 240px;
+    border-radius: 5px;
+}
+footer .rodape{
+
+    text-align: center;
+
+    margin-top: 15px;
+
+    height: 50px;
+    width: auto;
+
+    border: 2px solid black
+}
+
